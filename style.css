@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Marcellus+SC&family=Monoton&display=swap');
+a{
+    color:#6abfc3;
+}
+#newBookButton{
+    position: absolute;
+    top:195px;
+    right:45px;
+    font-size:1.5em;
+    border:none;
+    background-color: rgba(119, 118, 118, 0.15);
+    border-radius:50%;
+    height:55px;
+    width:55px;
+}
+#newBookButton:hover{
+    transform:scale(1.1,1.1) rotate(180deg) ;
+    transition-duration: .1s;
+    border:none;
+    border-color:#6abfc3;
+    background-color:#6abfc3;
+    cursor:pointer;
+}
+h1{
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Marcellus SC', serif;
+    color: #cc9543;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-top:50px;
+}
+h2{
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Marcellus SC', serif;
+    font-weight: bold;
+    color: #4a4a4a; 
+    margin-top:-30px;
+    border-bottom:solid;
+    padding-bottom:15px;
+}
+.card{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: rgb(255, 255, 255);
+    font-size: 1.5em;
+    letter-spacing: 0.3px;
+    font-weight: 600;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 40px;
+    padding-left: 15px;
+    padding-right:5px;
+    box-shadow: 5px 15px 30px rgba(0,0,0,0.15);
+    box-sizing: border-box;
+    color: #4a4a4a;
+    position: relative;
+}
+.card:hover{
+    transform:scale(1.1);
+    background:rgba(0,0,0,0.15);
+}
+.cardContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    padding: 2rem;
+    grid-gap: 25px;
+    border-top: none;
+    border-color: #6abfc3;
+    margin-left:10%;
+    margin-right:10%;
+    margin-top:30px;
+}
+#deleteButton{
+    border:none;
+    background:none;
+    position: absolute;
+    top:4px;
+    right:2px;
+}
+#deleteButton:hover{
+    background:#4a4a4a;
+}
+#readButton{
+    font-size:.6em;
+    border:none;
+    color:#4a4a4a;
+    background: none;
+    font-weight: 600;
+    font-family: 'Marcellus SC', serif;
+}
+#readButton:hover{
+        cursor:pointer;
+    }
+#title{
+    font-family: 'Marcellus SC', serif;
+    font-weight: bold;
+    font-size:1.2em;
+}
+#author{
+    font-family: 'Marcellus SC', serif;
+}
+#author,#pages{
+    font-size:.6em;
+}
+#newBookForm{
+    text-align: center;
+    font-size: 1em;
+    letter-spacing: 0.3px;
+    font-weight: 600;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 40px;
+    color: #4a4a4a;
+}
+#submitFormButton{
+    font-size: .9em;
+    letter-spacing: 0.3px;
+    font-weight: 600;
+    color: #4a4a4a;
+    margin: 5px;
+    margin-left:30px;
+    border:none;
+    background-color: #6abfc3;
+    border-radius:0%;
+    height:35px;
+    width:75px;
+}
+#submitFormButton:hover{
+    transition-duration: .1s;
+    border:none;
+    border-color:#6abfc3;
+    background-color:#cc9543;
+    cursor:pointer;
+ }
+.formElements{
+    margin:5px;
+}
+#labelReadForm{
+    font-size: .9em;
+    letter-spacing: 0.3px;
+    font-weight: 600;
+    color: #4a4a4a;
+    margin: 5px;
+    margin-left:10px;
+    cursor:pointer;
+}
+#readForm{
+    cursor:pointer;
+}
